@@ -11,7 +11,7 @@ The goal of ImmunoCompass is to ...
 You can install the development version of ImmunoCompass like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+#install_github("lydiaMyr/ImmunoCompass/ImmunoCompass@main")
 ```
 
 ## Example
