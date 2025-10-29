@@ -20,6 +20,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(ImmunoCompass)
-## basic example code
+## Immune_balance_score = ImmunoCompass("expression_file_path")
 ```
 
