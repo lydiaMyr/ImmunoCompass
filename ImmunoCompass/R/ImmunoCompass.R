@@ -34,7 +34,5 @@ build_feature_matrix <- function(expr, gene_pairs) {
   colnames(feature_df) = gene_pairs
   return(as.matrix(feature_df))
 }
-ImmunoCompass("F:/workspace/免疫平衡评分工具/GSE232381_Processed_data_files-Active_LN_vs_Inactive_LN.txt")
-
 
 
