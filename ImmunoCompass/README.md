@@ -11,6 +11,8 @@ The goal of ImmunoCompass is to ...
 You can install the development version of ImmunoCompass like so:
 
 ``` r
+install.packages("e1071")
+install.packages("caret")
 install_github("lydiaMyr/ImmunoCompass/ImmunoCompass@main")
 ```
 
