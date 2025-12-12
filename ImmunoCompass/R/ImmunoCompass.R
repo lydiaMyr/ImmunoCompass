@@ -22,11 +22,7 @@ ImmunoCompass<-function(expr_loc){
 }
 build_feature_matrix <- function(expr, gene_pairs) {
   # 最简单的执行语句
-    expr_mat <- if(grepl("\\.txt$", expr)) {
-      read.table(expr, header = TRUE, row.names = 1, sep = "\t")
-    } else {
-      expr
-    }
+    expr_mat <- expr
  # expr_mat = read.table(expr,header=T,row.names=1,sep="\t")
   samples <- colnames(expr_mat)
   feature_df <- data.frame(sample = samples)
